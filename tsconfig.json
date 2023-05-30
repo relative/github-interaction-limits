@@ -1,0 +1,29 @@
+{
+  "compilerOptions": {
+    "emitDeclarationOnly": true,
+    "baseUrl": "./src",
+    "outDir": "./dist",
+    "target": "es2020",
+    "module": "commonjs",
+    "incremental": true,
+
+    "declaration": true,
+    "declarationMap": true,
+    "sourceMap": true,
+
+    "strict": true,
+    "esModuleInterop": true,
+    "allowImportingTsExtensions": true,
+
+    "plugins": [
+      { "transform": "typescript-transform-paths", "afterDeclarations": true }
+    ],
+
+    "paths": {
+      "generated:*": ["./__generated__/*"],
+      "~/*": ["./*"]
+    }
+  },
+  "files": ["./src/index.ts"],
+  "include": ["src/**/*"]
+}

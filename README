@@ -1,0 +1,5 @@
+automatically manage github interaction limits based on hardcoded issue/pull request recently opened threshold
+
+github doesn't have an api endpoint to delete issues, this has been an issue since at least 2019. does github care? ):
+
+as such you are forced to use stupid solutions like this because of githubs lack of effort in maintaining any sort of useful moderation tools for repo maintainers.
